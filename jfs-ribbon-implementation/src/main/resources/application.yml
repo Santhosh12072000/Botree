@@ -1,0 +1,9 @@
+jfs-ribbon-app:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8998,localhost:9000
+    ServerListRefreshInterval: 15000
+    
+server:
+  port: 8888
